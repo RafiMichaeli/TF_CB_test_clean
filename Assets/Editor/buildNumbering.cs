@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-private static void IncrementBuildNumber(int 1)
+private static void IncrementBuildNumber(int amount)
     {
         // Load the PlayerSettings asset.
         var playerSettings = Resources.FindObjectsOfTypeAll<PlayerSettings>().FirstOrDefault();
